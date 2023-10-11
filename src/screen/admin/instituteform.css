@@ -1,0 +1,53 @@
+.Inform{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    width: 100%;
+}
+.Inform div{
+    margin: 1%;
+}
+.instbtn{
+    text-align: center;
+    width: 100px;
+    grid-column: 1/span 3;
+}
+
+/* USER REGISTER */
+.userbtn{
+    grid-column: 1/span 3;
+}
+
+/* Institute */
+.header{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-size: 2rem;
+    background-color: #007bff;
+    color: aliceblue;
+    margin-bottom: 1rem; 
+}
+.container{
+    display: grid; 
+    width: 95%;
+    grid-template-columns:1fr 1fr 1fr;  
+    margin: 0 auto; /* Center horizontally */
+}
+.item{
+    margin: 1%;
+    background-color:white;
+    color: black;
+    border: 2px solid black;  
+    border-radius: 5%;
+    text-align: center;
+} 
+.item img{
+    width: 5rem;
+    height: 5rem;
+   }
+#title{
+    font-size: 1rem;
+    font-family:'Oswald';
+    color: #007bff;
+    text-decoration: underline;
+} 
